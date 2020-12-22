@@ -1,5 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
+#include<string.h>
 //int main()
 //{
 //	double r;
@@ -77,7 +78,6 @@
 //	}
 //	return 0;
 //}
-#include<math.h>
 //void main()
 //{
 //	//设置一个解决 一元二次方程
@@ -244,40 +244,43 @@
 //	return 0;
 //
 //}
+/*
+
+#define N 20
 #include<stdlib.h>
+#include<stdio.h>
 #include<math.h>
 #include<time.h>
-#define N 20
-void Random(int *x, int k)
+void Random(int x[N], int k)
 {
 	int j = 0;
 	for (j = 0; j < k; j++)
 	{
-		*(x + j) = rand()%100;
+		x[j] = rand() % 100;
 	}
 	printf("原数组：\n");
 	for (j = 0; j < k; j++)
-		printf("%d   ", *(x + j));
+		printf("%d   ", x[j]);
 	printf("\n");
 }
-void Swap(int *x, int k)
+void Swap(int x[N], int k)
 {
-	int left = k-1, right = 0;
-	while (left>= right)
+	int left = k - 1, right = 0;
+	while (left >= right)
 	{
-		int tmp = *(x + right);
-		*(x + right) = *(x + left);
-		*(x + left) = tmp;
+		int tmp = x[right];
+		x[right] = x[left];
+		x[left] = tmp;
 		right++;
 		left--;
 	}
 }
-void Print(int *x, int k)
+void Print(int x[N], int k)
 {
 	int j = 0;
 	printf("交换后的数组为；》\n");
 	for (j = 0; j < k; j++)
-		printf("%d   ", *(x + j));
+		printf("%d   ", x[j]);
 }
 int main()
 {
@@ -286,4 +289,222 @@ int main()
 	Swap(arr, N);
 	Print(arr, N);
 	return 0;
+}*/
+//#include<stdio.h>
+//#include<string.h>
+//void my_get(char*k)
+//{
+//	char a[] = { "*****" };
+//	int i = 0;
+//	do{
+//		gets(k+i);
+//		i++;
+//
+//	} while (*k != a);
+//}
+//char * my_search(char* x)
+//{
+//	char *y;
+//	char a[] = { "*****" };
+//	int i = 0;
+//	do{
+//		y = strcmp(x+i , x+i  + 1);
+//		i++;
+//
+//	} while (*(x+1+i)!= a);
+//	
+//	return y;
+//
+//}
+//void main()
+//{
+//	char* arr[100]
+//
+//	my_get(arr[0]);
+//	char*x = my_search(arr[0]);
+//	printf("%s", x);
+//}									
+//#include<stdio.h>
+//#include<string.h>
+//void search(char *name[100], int x, int *pmax)
+//{
+//	int i = 0;
+//	int k = 0;
+//	int t = 0;
+//	for (i = 0; i < x; i++)
+//	{
+//		if (t = strcmp(name[k], name[i]) < 0)
+//			k=pmax= i;
+//	}
+//
+//}
+//int main()
+//{
+//	char *arr[100];			
+//	char a[100][6];
+//	int max;
+//	int i = 0;
+//	int j = 0;
+//	do		  
+//	{			 
+//		arr[i] = a[i];
+//		gets(arr[i]);
+//		i++;
+//	} while (j = strcmp(arr[i - 1], "*****") != 0);
+//	search(arr[i], i - 1, &max);
+//	printf("%s", arr[max]);
+//	return 0;
+//}
+//void find(char *name[], int n, int *p)
+//{
+//	int i = 0;
+//	char *pmax = name[0];
+//	for (i = 1; i < n; i++)
+//	{
+//		if (strcmp(pmax, name[i]) < 0)
+//		{
+//			strcpy(pmax, name[i]);
+//			*p = i;
+//		}
+//	}
+//	
+//}
+//int main(void)
+//{
+//	char *str[100];
+//	char a[100][6];
+//	int i = 0, max;
+//	printf("****Input strings****\n");
+//	do
+//	{
+//		str[i] = a[i];
+//		scanf("%s", str[i]);
+//		i++;
+//	} while (strcmp(str[i - 1], "*****") != 0);
+//	find(str, i, &max);
+//	printf("max=%s\n", str[max]);
+//	return 0;
+//}
+//void find(char *name[], int n, int *p)
+//{
+//	int i = 0;
+//	char *max = name[0];
+//	for (i = 1; i < n; i++)
+//	{
+//		if (strcmp(max, name[i]) < 0)
+//		{
+//			max = name[i];
+//			*p = i;
+//		}
+//	}
+//}
+//
+//
+//
+//int main()
+//{
+//	char *a[100], arr[100][6];
+//	int i=0, max=0;
+//	do
+//	{
+//		a[i] = arr[i];
+//		scanf("%s", a[i]);
+//		i++;
+//	} while (strcmp(a[i-1], "*****") != 0);
+//	find(a, i, &max);
+//	printf("%s", a[max]);
+//	return 0;
+//}
+
+
+//void Swap(char *arr, int i,char *p)
+//{
+//	int j = 0;
+//	while (*(p + j) = *(arr + i + j))
+//	{
+//	j++;
+//	}
+//	
+//
+//}
+//
+//int main()
+//{
+//	char arr[30];
+//	int m;
+//	scanf("%s", arr);
+//	scanf("%d", &m);
+//	char p[20] = { 0 };
+//	Swap(arr,m-1, p );
+//	printf("%s", p);
+//	return 0;
+//}
+
+//
+//int Count(char *x)
+//{
+//	int i = 0;
+//	while (*(x + i))
+//		i++;
+//	return i;
+//}
+//int main()
+//{
+//	char x[100] = { 0 };
+//	scanf("%s", &x);
+//	int count = Count(x);
+//	printf("%d", count);
+//	return 0;
+
+//void Copy(char*dest, const char*sour)
+//{
+//	int i = 0;
+//	while (*(dest + i) = *(sour + i))
+//		i++;
+//}
+//int main()
+//{
+//	char arr[100];
+//	char arr2[100];
+//	gets(arr);
+//	gets(arr2);
+//	Copy(arr, arr2);
+//	printf("%s", arr);
+//	return 0;
+//}
+
+
+//int main()
+//{
+//	char arr[100];
+//	char arr1[100];
+//	int count;
+//	gets(arr);
+//	gets(arr1);
+//	int i = 0;
+//	for (i = 0; i < 100; i++)
+//	{
+//		if (arr[i] != arr1[i])
+//		{
+//			count = arr[i] - arr1[i];
+//			break;
+//		}								   
+//	}
+//	printf("%d\n", count);
+//	return 0;
+//}
+int main()
+{
+	int n;
+	scanf("%d", &n);
+	int i = 0;
+	int j = 0;
+	for (i = 0; i < n; i++)
+	{
+		for (j = i; j <n-1; j++)
+			printf(" ");
+		for (j = 0; j <= i; j++)
+			printf("* ");
+		printf("\n");
+	}
 }

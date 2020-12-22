@@ -1,0 +1,25 @@
+﻿生成启动时间为 2020/12/20 20:00:14。
+     1>项目“D:\编程\visual stdio 2013\2020--12-20.123.c\2020--12-20.123.c\2020--12-20.123.c.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp"
+         源.cpp
+     1>d:\编程\visual stdio 2013\2020--12-20.123.c\2020--12-20.123.c\源.cpp(7): error C2275: “Complex”: 将此类型用作表达式非法
+                 d:\编程\visual stdio 2013\2020--12-20.123.c\2020--12-20.123.c\源.cpp(6) : 参见“Complex”的声明
+                 d:\编程\visual stdio 2013\2020--12-20.123.c\2020--12-20.123.c\源.cpp(6) : 参见“Complex”的声明
+     1>d:\编程\visual stdio 2013\2020--12-20.123.c\2020--12-20.123.c\源.cpp(7): error C2146: 语法错误: 缺少“)”(在标识符“C”的前面)
+     1>d:\编程\visual stdio 2013\2020--12-20.123.c\2020--12-20.123.c\源.cpp(7): error C2182: “Creat”: 非法使用“void”类型
+     1>d:\编程\visual stdio 2013\2020--12-20.123.c\2020--12-20.123.c\源.cpp(7): error C2059: 语法错误:“)”
+     1>d:\编程\visual stdio 2013\2020--12-20.123.c\2020--12-20.123.c\源.cpp(8): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\编程\visual stdio 2013\2020--12-20.123.c\2020--12-20.123.c\源.cpp(8): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>d:\编程\visual stdio 2013\2020--12-20.123.c\2020--12-20.123.c\源.cpp(14): error C2065: “C”: 未声明的标识符
+     1>d:\编程\visual stdio 2013\2020--12-20.123.c\2020--12-20.123.c\源.cpp(14): error C2065: “x”: 未声明的标识符
+     1>d:\编程\visual stdio 2013\2020--12-20.123.c\2020--12-20.123.c\源.cpp(14): error C2065: “yi”: 未声明的标识符
+     1>d:\编程\visual stdio 2013\2020--12-20.123.c\2020--12-20.123.c\源.cpp(15): error C2065: “C”: 未声明的标识符
+     1>d:\编程\visual stdio 2013\2020--12-20.123.c\2020--12-20.123.c\源.cpp(15): error C2228: “.Realpart”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>d:\编程\visual stdio 2013\2020--12-20.123.c\2020--12-20.123.c\源.cpp(39): error C2064: 项不会计算为接受 0 个参数的函数
+     1>已完成生成项目“D:\编程\visual stdio 2013\2020--12-20.123.c\2020--12-20.123.c\2020--12-20.123.c.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.12
