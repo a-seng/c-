@@ -1,0 +1,14 @@
+﻿生成启动时间为 2020/12/26 14:17:37。
+     1>项目“D:\编程\visual stdio 2013\2020--12-26\2020--12-26\2020--12-26.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt 123.c
+         123.c
+     1>d:\编程\visual stdio 2013\2020--12-26\2020--12-26\123.c(31): error C4703: 使用了可能未初始化的本地指针变量“head”
+     1>d:\编程\visual stdio 2013\2020--12-26\2020--12-26\123.c(26): error C4703: 使用了可能未初始化的本地指针变量“p2”
+     1>d:\编程\visual stdio 2013\2020--12-26\2020--12-26\123.c(77): error C4703: 使用了可能未初始化的本地指针变量“p2”
+     1>d:\编程\visual stdio 2013\2020--12-26\2020--12-26\123.c(112): error C4703: 使用了可能未初始化的本地指针变量“p2”
+     1>已完成生成项目“D:\编程\visual stdio 2013\2020--12-26\2020--12-26\2020--12-26.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.13
