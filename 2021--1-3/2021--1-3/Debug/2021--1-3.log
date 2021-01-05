@@ -1,0 +1,24 @@
+﻿生成启动时间为 2021/1/3 19:49:36。
+     1>项目“D:\编程\visual stdio 2013\2021--1-3\2021--1-3\2021--1-3.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "南区图书馆.cpp"
+         南区图书馆.cpp
+     1>d:\编程\visual stdio 2013\2021--1-3\2021--1-3\南区图书馆.cpp(220): error C2182: “PrintPerson2”: 非法使用“void”类型
+     1>d:\编程\visual stdio 2013\2021--1-3\2021--1-3\南区图书馆.cpp(220): error C2998: “int PrintPerson2”: 不能是模板定义
+     1>d:\编程\visual stdio 2013\2021--1-3\2021--1-3\南区图书馆.cpp(231): error C2143: 语法错误 : 缺少“;”(在“<”的前面)
+                 d:\编程\visual stdio 2013\2021--1-3\2021--1-3\南区图书馆.cpp(243): 参见对正在编译的类 模板 实例化“Person<T1,T2>”的引用
+     1>d:\编程\visual stdio 2013\2021--1-3\2021--1-3\南区图书馆.cpp(231): error C2182: “PrintPerson2”: 非法使用“void”类型
+     1>d:\编程\visual stdio 2013\2021--1-3\2021--1-3\南区图书馆.cpp(231): error C2433: “PrintPerson2”: 不允许在数据声明中使用“friend”
+     1>d:\编程\visual stdio 2013\2021--1-3\2021--1-3\南区图书馆.cpp(231): error C2238: 意外的标记位于“;”之前
+     1>d:\编程\visual stdio 2013\2021--1-3\2021--1-3\南区图书馆.cpp(248): error C2365: “PrintPerson2”: 重定义；以前的定义是“数据变量”
+                 d:\编程\visual stdio 2013\2021--1-3\2021--1-3\南区图书馆.cpp(220) : 参见“PrintPerson2”的声明
+     1>d:\编程\visual stdio 2013\2021--1-3\2021--1-3\南区图书馆.cpp(248): error C2904: “PrintPerson2”: 名称已经用于当前范围内的模板
+                 d:\编程\visual stdio 2013\2021--1-3\2021--1-3\南区图书馆.cpp(220) : 参见“PrintPerson2”的声明
+     1>d:\编程\visual stdio 2013\2021--1-3\2021--1-3\南区图书馆.cpp(231): error C3771: “PrintPerson2”: 在最近的命名空间范围内无法找到友元声明
+                 d:\编程\visual stdio 2013\2021--1-3\2021--1-3\南区图书馆.cpp(252): 参见对正在编译的类 模板 实例化“Person<std::string,int>”的引用
+     1>d:\编程\visual stdio 2013\2021--1-3\2021--1-3\南区图书馆.cpp(253): error C3861: “PrintPerson2”:  找不到标识符
+     1>已完成生成项目“D:\编程\visual stdio 2013\2021--1-3\2021--1-3\2021--1-3.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.25
